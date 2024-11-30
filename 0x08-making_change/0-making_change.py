@@ -34,4 +34,3 @@ def makeChange(coins, total):
         return pieces
     else:
         return -1
-
