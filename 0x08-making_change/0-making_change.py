@@ -8,11 +8,9 @@ def makeChange(coins, total):
     """This function makes some changes
     to determine one of the best way to find
     coins and sum them up ti tital
-
     param: coins
     param: total
     """
-
     if total <= 0 or len(coins) == 0:
         return 0
 
@@ -36,3 +34,4 @@ def makeChange(coins, total):
         return pieces
     else:
         return -1
+
